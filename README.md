@@ -18,3 +18,11 @@ For Transportation Documents (TTN):
 * Stamp & Signature Detection: Integration with custom YOLO detection API
 * Section Analysis: Spatial validation of stamps/signatures in "Cargo Acceptance" section
 * Compliance Checking: Ensures required seals and signatures are present
+
+## Technology Stack
+* Backend: FastAPI
+* OCR: Yandex Vision API
+* AI Processing: YandexGPT API
+* Computer Vision: Custom YOLO API (previous project)
+* RAG: Vector search with keyword matching
+* Document Processing: PDF parsing, base64 handling
